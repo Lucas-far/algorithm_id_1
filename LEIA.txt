@@ -1,0 +1,13 @@
+
+
+------- PROCEDIMENTOS -------
+- A criação do banco neste algoritmo é manual
+- Abrir o MySQL Workbench, entrar com uma conta já existente (lucasf1)
+- No quadro branco (query), inserir o conteúdo do arquivo (algorithm.sql) e clicar no raio
+- No algoritmo (algorithm.py) abaixo do método inicializador, temos as funções de tratamento de dados do banco MySQL
+- Ao fim do algoritmo, com todos os campos coletados, cria-se um objeto e extrai-se os campos pertinentes
+- Esses campos são tratados e ao final, convertidos para json, sendo adicionados ao bdd (algorithm.sql)
+- Para acesso dos dados (ainda a ser melhorado...), executar arquivo (mysql_query.py)
+
+------- DEPENDÊNCIAS -------
+pip install mysql-connector-python
